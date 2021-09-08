@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class PropertyInjectionClass {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("configNew.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("PropertyInjection.xml");
         //primitive Data injection
         Student student1 = (Student) context.getBean("student");
         //collection type data injection
