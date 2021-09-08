@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.propertyinjection;
 
 public class Student {
     private int studentId;
