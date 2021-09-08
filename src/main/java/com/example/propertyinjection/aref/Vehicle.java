@@ -1,4 +1,4 @@
-package aref;
+package com.example.propertyinjection.aref;
 
 public class Vehicle {
     private String vehicleType;

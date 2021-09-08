@@ -1,4 +1,4 @@
-package emp;
+package com.example.propertyinjection.emp;
 
 import java.util.List;
 import java.util.Map;

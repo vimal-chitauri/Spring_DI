@@ -1,4 +1,4 @@
-package aref;
+package com.example.propertyinjection.aref;
 
 public class Car {
     private String name;

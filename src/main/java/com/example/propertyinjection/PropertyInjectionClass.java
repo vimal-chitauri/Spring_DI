@@ -1,7 +1,8 @@
 package com.example.propertyinjection;
 
-import aref.Car;
-import emp.Emp;
+import com.example.propertyinjection.aref.Car;
+import com.example.propertyinjection.emp.Emp;
+import com.example.propertyinjection.student.Student;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,7 +11,7 @@ public class PropertyInjectionClass {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("configNew.xml");
         //primitive Data injection
-        Student student1 = (Student) context.getBean("Student");
+        Student student1 = (Student) context.getBean("student");
         //collection type data injection
         Emp emp = (Emp) context.getBean("emp");
         //refrence type data injection

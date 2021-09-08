@@ -5,9 +5,9 @@
         xmlns:p="http://www.springframework.org/schema/p"
         xsi:schemaLocation="http://www.springframework.org/schema/beans
                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-    <bean class="com.example.propertyinjection.Student" name="Student" p:studentAddress="delhi" p:studentId="1"
+    <bean class="com.example.propertyinjection.student.Student" name="student" p:studentAddress="delhi" p:studentId="1"
           p:studentName="Vimal Singh"/>
-    <bean class="emp.Emp" name="emp">
+    <bean class="com.example.propertyinjection.emp.Emp" name="emp">
         <property name="empName" value="vimal Singh"/>
         <property name="empSubject">
             <list>
@@ -31,8 +31,8 @@
             </map>
         </property>
     </bean>
-    <bean class="aref.Vehicle" name="vehicle" p:vehicleType="Sedan"/>
-    <bean class="aref.Car" name="car">
+    <bean class="com.example.propertyinjection.aref.Vehicle" name="vehicle" p:vehicleType="Sedan"/>
+    <bean class="com.example.propertyinjection.aref.Car" name="car">
         <property name="name" value="GM"/>
         <property name="vehicle" ref="vehicle"/>
     </bean>
