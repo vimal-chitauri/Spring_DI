@@ -2,11 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean class="autowireusingxml.ElectricMachine" name="electricMachine">
+    <bean class="autowired.autowireusingxml.ElectricMachine" name="autowiredAnnotationParent">
         <property name="workingOfMachine" value="Enhance Power"/>
         <property name="nameofMachine" value="regulator"/>
     </bean>
-    <!--use autowire byName can be use byType constructor-->
-    <bean class="autowireusingxml.MachineBean" name="machineBean" autowire="byName"/>
+    <!--use autowireusing xml byName can be use byType constructor-->
+    <bean class="autowired.autowireusingxml.MachineBean" name="autowiredAnnotationBean" autowire="byName"/>
 
 </beans>

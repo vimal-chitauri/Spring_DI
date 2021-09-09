@@ -1,4 +1,4 @@
-package autowireusingxml;
+package autowired.autowireusingxml;
 
 public class MachineBean {
     private ElectricMachine electricMachine;

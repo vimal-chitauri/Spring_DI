@@ -36,6 +36,4 @@
         <property name="name" value="GM"/>
         <property name="vehicle" ref="vehicle"/>
     </bean>
-
-
 </beans>
